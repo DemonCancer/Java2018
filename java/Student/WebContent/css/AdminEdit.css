@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+#logmessge{
+	text-align:center;
+	margin-bottom:1%;
+}
+#nav{
+	width:60%;
+	margin:0 auto;
+	margin-bottom:5%;
+}
+body{
+	padding-bottom:5%;
+	padding-right:2%;
+	padding-left:2%;
+	background:#80ffff;
+}
+#warp{
+	border:1px solid #000;
+	border-radius:5px;
+}
+#userlist{
+	
+}

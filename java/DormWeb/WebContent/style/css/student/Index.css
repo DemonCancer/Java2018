@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+body {
+  padding-top: 70px;
+}
+#title{
+	margin-top: 100px;
+}
+@media(min-width:992px){
+	
+}

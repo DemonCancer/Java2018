@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	background-image:url(../img/bg.jpg) !important;
+}
+a{
+	text-decoration:none;
+	color:#333;
+}
+#hlogin a:hover{
+	color:rgba(102,102,204,1);
+	text-shadow:1px 1px 1px rgba(102,102,102,0.5);
+}
+#hlogin a:active{
+	text-shadow:1px 1px 1px rgba(102,102,102,0.8);
+}
+#header{
+	
+}
+header{
+	width:80%;
+	margin:0 auto;
+	width:1000px;
+}
+nav,footer,#mainContent{
+	clear:both;
+	width:1000px;
+	margin:0 auto;
+}
+
+header div img{
+	float:left;
+}
+#hdes{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:55px;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	text-shadow:#333 3px 3px 3px;
+	
+}
+#hlogin{
+	font-size:20px;
+	margin-top:10%;
+	vertical-align:middle;
+	float:right;
+}
+/*导航相关*/
+nav{
+	clear:both;
+	
+}
+nav ul{
+	list-style:none;
+	background-color:#363534;
+	height:30px;
+	padding-left:0px;
+	
+}
+nav ul li{
+	width:120px;
+	float:left;
+	line-height:30px;
+	text-align:center;
+}
+nav ul li:hover{
+	background:#666;
+}
+nav ul li a{
+	color:#fff;
+}
+/***/
+#mainContent{
+	width:700px;
+	margin:0 auto;
+}
+#introduce{
+	padding:10px;
+	border-radius:3px;
+	background:rgba(255,255,255,0.8);
+	box-shadow: 3px 3px 3px rgba(170,170,170,0.5);
+}
+#introduce:hover{
+	box-shadow: 4px 4px 4px rgba(170,170,170,0.7);
+}
+#introduce-img{
+	z-index:999px;
+	width:150px;
+	padding:10px;
+	margin:0 auto;
+}
+#introduce-img:active{
+	width:200px;
+	padding:10px;
+	margin:0 auto;
+}
+#introduce-content{
+	background:rgba(255,255,255,0.8);
+	box-shadow: 3px 3px 3px rgba(170,170,170,0.5);
+	padding:15px;
+	margin:0 auto;
+	border-radius:3px;
+	margin:10px;
+	margin-bottom:50px;
+}
+#introduce-content:hover{
+	box-shadow: 5px 5px 5px 5px rgba(170,170,170,0.8);
+}
+#introduce-content:active{
+	box-shadow: 3px 3px 3px 3px rgba(170,170,170,0.8);
+}
+#introduce-content p{
+	font-family:"微软雅黑";
+	text-indent:2em;
+	font-size:18px;
+}
+section img{
+	z-index:999px;
+	border:2px solid rgba(204,255,255,1);
+	border-radius:150px;
+	width:150px;
+	height:150px;
+	margin:0 auto;
+	box-shadow: 3px 3px 3px rgba(170,170,170,0.5);
+	
+}
+section img:active{
+	width:200px;
+	height:200px;
+	margin:0 auto;
+	box-shadow: 3px 3px 3px rgba(170,170,170,0.5);
+	
+}
+/*尾部*/
+footer{
+	text-align:center;
+}
+footer p{
+	clear:left;
+	background:#363534;
+	height:30px;
+	line-height:30px;
+	color:#fff;
+}

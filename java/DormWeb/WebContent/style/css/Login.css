@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+body{ 
+	margin:0;
+	padding:0;
+	background-image:url(../image/bg2.jpg);
+	background-repeat: no-repeat; 
+	background-size:cover;
+
+}
+#warp{
+	margin-top: 8%;
+}
+.form-signin {
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox  input[type="radio"]{
+  margin-bottom: 10px;
+}
+.form-signin .form-signin-heading{
+	margin-bottom: 15px;
+}
+
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: 20px;
+  
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+ 
+}
+/**/
+#msg{
+	color:red;
+}
+
+/**/
+#role{
+	margin-left:-20px;
+}
+#VerCode{
+	float:left;
+	width:150px;
+}
+#VerCodeimg{
+	float:left;
+	margin-left:10px;
+	margin-top:-5px
+}
+
+

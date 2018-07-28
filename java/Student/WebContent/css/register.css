@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+#logmessge{
+	text-align:center;
+	margin-bottom:1%;
+}
+#nav{
+	width:60%;
+	margin:0 auto;
+	margin-bottom:8%;
+}
+body{
+	
+	background:#80ffff;
+}
+#warp{
+	width:40%;
+	border:1px solid #000;
+	border-radius:5px;
+	margin:0 auto;
+}
+#header{
+	width:40%;
+	height:40px;
+	margin:0 auto;
+	line-height:3px;
+	text-align:center;
+}
+td{
+	text-align:center;
+}
+table{
+	width:70%;
+	border-spacing:10px; 
+	margin:0 auto;
+}
+table input{
+	width:80%;
+	height:25px;
+	margin:5%;
+	border-style:none;
+	border:1px solid #000;
+	border-radius:3px;
+}
+#footer{
+	text-align:center;
+	margin:5%;
+}
+#submit,#exit{
+	margin:3%;
+	font-size:20px;
+	font-weight:bold;
+	border-style:none;
+	border:0px solid #000;
+	background:#f392e8;
+	border-radius:3px;
+	width:25%;
+	height:7%;
+}
+
